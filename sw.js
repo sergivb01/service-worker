@@ -115,6 +115,7 @@ const requestBlackListed = request => {
   const url = new URL(request.url)
   return request.method !== 'GET' ||
     request.url.match(/\/notifications(\?|\/)/) ||
+    request.url.match(/\/alerts(\?|\/)/) ||
     BLOCK_HOSTS.indexOf(url.host) != -1
 }
 
