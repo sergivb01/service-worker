@@ -1,7 +1,7 @@
 # 👷 Service Worker ⚒🔔
 [![pr_welcome][pr_welcome]][pr_welcome_url] <!-- /pulls -->
 
-This is a service worker that I use in many of my projects to cache assets and requests as well as get background
+This is a service worker that I use in many of my projects to cache assets and requests as well as get background notifications.
 
 ## 📦 Installation
 None
