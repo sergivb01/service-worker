@@ -14,7 +14,10 @@
 </body>
 <script>
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/sw.js');
+  } else {
+    console.info('Failed to register Service Worker - Client does not support.')
+    // Push analytics
   }
 </script>
 
