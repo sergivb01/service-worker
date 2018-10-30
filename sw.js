@@ -6,7 +6,7 @@
  */
 
 // Name & version of the cache, useful for cleaning it up
-const CACHE_NAME = 'v2'
+const CACHE_NAME = 'v1'
 
 // List of URLs that will be prefetched (offline page, assets, ...)
 const PRE_CACHE = [
